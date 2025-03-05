@@ -340,6 +340,13 @@ nav ul li a:hover {
     .services .container {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
+    .footer-content2 {
+        border-bottom: 1px solid white;
+        border-left: none;
+        padding-left: 10px;
+        padding-bottom: 10px;
+         /* Adds some space above the content */
+    }
 }
 
 @media (max-width: 480px) {
